@@ -19,5 +19,5 @@ class TestGameLogic(unittest.TestCase):
     def test_invalid_input(self):
         self.assertEqual(get_winner("rock", "banana"), "Неправильне введення. Можливі варіанти: rock, paper, scissors, lizard, spock.")
 
-if name == 'main':
+if __name__ == '__main__':
     unittest.main()
