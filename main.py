@@ -20,7 +20,7 @@ def get_winner(player1, player2):
     player1 = player1.lower()
     player2 = player2.lower()
     if player1 == player2:
-        return "Нічия!"
+        return "Нічия"
     elif (player1, player2) in RULES:
         return f"Гравець 1 перемагає! {RULES[(player1, player2)]}"
     elif (player2, player1) in RULES:
